@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Backend for event registration",
   "main": "server.js",
+  "engines": {
+    "node": "22.x"
+  },
   "type": "module",
   "scripts": {
     "start": "node server.js"
@@ -18,13 +21,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/standardsclubvitv/Standards-Club-VIT.git"
+    "url": "git+https://github.com/standardsclubvitv/Standards-Club.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/standardsclubvitv/Standards-Club-VIT/issues"
+    "url": "https://github.com/standardsclubvitv/Standards-club/issues"
   },
-  "homepage": "https://github.com/standardsclubvitv/Standards-Club-VIT#readme"
+  "homepage": "https://github.com/standardsclubvitv/Standards-Club#readme"
 }
