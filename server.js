@@ -21,7 +21,9 @@ const transporter = nodemailer.createTransport({
         pass: process.env.EMAIL_PASSWORD  // App password (not your actual password)
     }
 });
-
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
 // ✅ Send Welcome Email
 app.post("/send-welcome-email", async (req, res) => {
     const { email, name } = req.body;
